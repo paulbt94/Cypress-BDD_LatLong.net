@@ -1,0 +1,21 @@
+{
+  "name": "cypress-poc",
+  "version": "1.0.0",
+  "description": "Cypress PoC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean Paul Bolaños Torres",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.13.0",
+    "ts-loader": "^9.4.3"
+  },
+  
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  }
+}
